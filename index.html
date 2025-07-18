@@ -1,0 +1,960 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VK Crop Science</title>
+
+    <!--=====FAB ICON=======-->
+    <link rel="shortcut icon" href="images/logo/VKCROP.png" type="image/x-icon">
+
+    <!--===== CSS LINK =======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="assets/css/owlcarousel.min.css">
+    <link rel="stylesheet" href="assets/css/sidebar.css">
+    <link rel="stylesheet" href="assets/css/slick-slider.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap" rel="stylesheet"> -->
+    <!-- Google Fonts and Google Translate are commented out for offline use -->
+    <!-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    
+</script>
+
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+
+<body  class="homepage5-body">
+<div id="loader-placeholder"></div>
+<div id="whatsapp-placeholder"></div>
+<div id="header-placeholder"></div>
+<style type="text/css">
+  .homepage5-body .header-area.homepage5 .header-elements .main-menu ul li a
+  {
+    color: black !important;
+  }
+  .title_font_size
+  {
+    font-size: 39px !important;
+    line-height: 38px !important;
+  }
+  .title_font_size2
+  {
+    font-size: 20px !important;
+    line-height: 27px !important;
+  }
+  .preloader4
+  {
+    background: white !important;
+  }
+  .preloader4 .loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+  }
+  #loading-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Remove absolute centering */
+    position: static;
+    top: unset;
+    left: unset;
+    transform: none;
+    width: auto;
+    height: auto;
+    z-index: 2;
+    margin-bottom: 24px;
+  }
+  #loading-icon img {
+    animation: logo-blink 1.2s infinite alternate;
+  }
+  @keyframes logo-blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.4; }
+    100% { opacity: 1; }
+  }
+  .preloader4 .loading {
+    z-index: 1;
+  }
+  .mobile-header.mobile-haeder5 .mobile-nav-icon
+  {
+    color: black !important;
+  }
+  .service2-section-area .images-content-area .content-area
+  {
+    margin-top: -233px !important;
+  }
+ /* @media (min-width: 1400px) 
+  {
+      .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1600px !important;
+      }
+  }*/
+  
+  #google_translate_element {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.translate i {
+    color: #fff;
+    font-size: 24px;
+}
+.ri-translate-2:before {
+    content: "\f226";
+}
+.translate {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    /* background-color: #ab6049; */
+    background: linear-gradient(90deg, rgb(86 89 91) 0%, rgb(128 129 131) 52%, rgb(124 125 127) 100%);
+    /* overflow: hidden; */
+    border-radius: 50%;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 12px rgb(0 0 0 / 8%);
+    box-shadow: 0 0 12px rgb(0 0 0 / 8%);
+    z-index: 100;
+}
+select.goog-te-combo {
+    height: 50px;
+    display:block !important;
+}
+.translate span {
+    padding-top: 5px;
+}
+.whatsapp-float {
+    position: fixed;
+    bottom: 85px;
+    right: 25px;
+    z-index: 1000;
+}
+  /* Modern spinner styles */
+  .modern-spinner {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    position: relative;
+    z-index: 1;
+  }
+  .modern-spinner:after {
+    content: " ";
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 6px solid #4e4e4e;
+    border-color: #4e4e4e transparent #bdbdbd transparent;
+    animation: modern-dual-ring 1.2s linear infinite;
+  }
+  @keyframes modern-dual-ring {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  /* Modern bouncing dots loader */
+  .modern-bounce-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+    z-index: 1;
+  }
+  .modern-bounce-loader span {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: bounce 0.6s infinite alternate;
+  }
+  .modern-bounce-loader span:nth-child(1) {
+    background: #B6D43A;
+  }
+  .modern-bounce-loader span:nth-child(2) {
+    background: #21A038;
+    animation-delay: 0.2s;
+  }
+  .modern-bounce-loader span:nth-child(3) {
+    background: #137A1F;
+    animation-delay: 0.4s;
+  }
+  @keyframes bounce {
+    to {
+      opacity: 0.3;
+      transform: translateY(-18px);
+    }
+  }
+</style>
+
+<a href="https://wa.me/+919601918001" target="_blank" class="whatsapp-float">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 65px; height: 65px;">
+</a>
+
+
+<!--<div class="translate">
+    <span>x</span>
+    <div id="google_translate_element"></div>
+</div>-->
+<!--===== PRELOADER STARTS =======-->
+<div class="preloader preloader4">
+  <div class="loading-container">
+    <div id="loading-icon"><img src="images/logo/VKCROP.png" alt="" style="max-height:50px; width:auto;"></div>
+    <div class="modern-bounce-loader">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</div>
+<!--===== PRELOADER ENDS =======-->
+
+<!--===== PROGRESS STARTS=======-->
+<div class="paginacontainer">
+     <div class="progress-wrap">
+       <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+       </svg>
+     </div>
+   </div>
+ <!--===== PROGRESS ENDS=======-->
+
+   <!--=====HEADER START=======-->
+   <header>
+    <div class="header-area homepage5 header header-sticky d-none d-lg-block" style="background-color:white;color:black !important" id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="header-elements">
+              <div class="site-logo">
+                <a href="https://farmexoagrochemicals.com/"><img src="images/logo/VKCROP.png" alt="" style="max-height:60px; width:auto;"></a>
+              </div>
+              <div class="main-menu">
+                <ul>
+                  <li><a href="https://farmexoagrochemicals.com/">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="#">Products <i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="dropdown-padding">
+                      <li><a href="https://farmexoagrochemicals.com/home/products/1">Fungicides</a></li>
+                      <li><a href="https://farmexoagrochemicals.com/home/products/2">Insecticides</a></li>
+                      <li><a href="https://farmexoagrochemicals.com/home/products/3">Herbicides</a></li>
+                      <li><a href="https://farmexoagrochemicals.com/home/products/4">Plant Growth</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="https://farmexoagrochemicals.com/home/gallery">Gallery & Videos</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--=====HEADER END =======-->
+
+  <!--===== MOBILE HEADER STARTS =======-->
+ <div class="mobile-header mobile-haeder5 d-block d-lg-none" style="background-color:white;">
+  <div class="container-fluid">
+    <div class="col-12">
+      <div class="mobile-header-elements">
+        <div class="mobile-logo">
+          <a href="https://farmexoagrochemicals.com/"><img src="images/logo/VKCROP.png" alt="" style="max-height:40px; width:auto;"></a>
+        </div>
+        <div class="mobile-nav-icon dots-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mobile-sidebar mobile-sidebar5">
+  <div class="logosicon-area">
+    <div class="menu-close">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+   </div>
+  <div class="mobile-nav mobile-nav1">
+    <ul class="mobile-nav-list nav-list1">
+      <li><a href="https://farmexoagrochemicals.com/">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="https://farmexoagrochemicals.com/home/category">Products</a></li>
+      <li><a href="https://farmexoagrochemicals.com/home/gallery">Gallery & Videos</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+    <div class="allmobilesection">
+      <a href="https://farmexoagrochemicals.com/home/contactus"  class="header-btn9">Get Free Quote</a>
+      <div class="single-footer">
+        <h3>Contact Info</h3>
+        <div class="footer1-contact-info">
+          <div class="contact-info-single">
+            <div class="contact-info-icon">
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <div class="contact-info-text">
+              <a href="">(+91) - 96019 18001/02</a>
+            </div>
+          </div>
+
+          <div class="contact-info-single">
+            <div class="contact-info-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="contact-info-text">
+              <a href=""><span class="__cf_email__" data-cfemail="5a33343c351a3c3b28373f22353b3d283539323f3739333b362974393537">[email&#160;protected]</span></a>
+            </div>
+          </div>
+
+          <div class="single-footer">
+            <h3>Our Location</h3>
+            
+            <div class="contact-info-single">
+              <div class="contact-info-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-info-text">
+                <a href="https://maps.app.goo.gl/ihsya7asJrHeuVNu8" >Juna deroi road, Gadhka, Rajkot, Gujarat 360020</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="single-footer">
+            <h3>Social Links</h3>
+            
+            <div class="social-links-mobile-menu">
+              <ul>
+                <li><a href="https://farmexoagrochemicals.com/#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://farmexoagrochemicals.com/#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://farmexoagrochemicals.com/#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://farmexoagrochemicals.com/#"><i class="fa-brands fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+  </div>
+</div>
+<!--===== HERO AREA STARTS =======-->
+<div class="hero5-section-area" style="background-repeat: no-repeat; background-size: cover; padding: 100px 0px 0px 0px !important;">
+    <div class="owl-carousel">
+                        <div class="slider-item" >
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <!--<div class="col-lg-6">
+                                <div class="header-content-area heading9">
+                                    <h5>Farmexo Agro Chemicals</h5>
+                                    <h1 class="text-anime-style-2">1</h1>
+                                    <p data-aos="fade-left" data-aos-duration="1000">1</p>
+                                    <div class="btn-area1" data-aos="fade-left" data-aos-duration="1200">
+                                        <a href="https://farmexoagrochemicals.com/home/aboutus" class="header-btn9">About Us <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="https://farmexoagrochemicals.com/home/contactus" class="header-btn10">Contact Us <i class="fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>-->
+                            <div class="col-lg-12">
+                                <div class="hero-images-area">
+                                    <div class="imges" style="left:0px !important;">
+                                        <img src="https://farmexoagrochemicals.com/admin/assets/uploads/91336_sess3.php" alt="" data-aos="zoom-in" data-aos-duration="1000">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+</div>
+
+<!--===== HERO AREA ENDS =======-->
+
+<!--===== ABOUT AREA STARTS =======-->
+<div class="about5-section-area sp1">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 m-auto">
+        <div class="about5-header text-center heading10">
+          <h5><img src="https://farmexoagrochemicals.com/assets/img/icons/logo-icons6.svg" alt="">Welcome to VK Crop Science</h5>
+          <h1 style="font-family: 'Noto Sans Devanagari', sans-serif;">किशान की उन्नति देश की प्रगति</h1>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="about-all-images-area">
+          <div class="row">
+            <div class="col-lg-12 col-md-12">
+              <div class="img1 image-anime reveal"  style="height:500px;">
+                <img src="https://farmexoagrochemicals.com/admin/assets/uploads/40427_whatsapp_image_2024-12-09_at_5.44.17_pm.jpeg" alt="" style="border-radius:15px;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="about5-content-area heading10">
+          <h3 class="text-anime-style-3">Leading Innovation in Agriculture</h3>
+          <p data-aos="fade-left" data-aos-duration="1000"> VK Crop Science is a global leader in the development, manufacturing, and distribution of high-quality agrochemicals. With a commitment to innovation, sustainability, and farmer success, we offer a comprehensive range of crop protection and plant nutrition products designed to address modern agricultural challenges. Our solutions empower farmers to grow healthier, more productive crops while promoting sustainable farming practices.</p>
+          <div class="space32"></div>
+          <div class="about5-boxarea">
+            <div class="row">
+                 <div class="col-lg-12">
+                      <div class="about5-boxes" data-aos="fade-left" data-aos-duration="1200">
+                           <h3><img src="https://farmexoagrochemicals.com/assets/img/about-icon-01.png" style="height:30px;">&nbsp;&nbsp;&nbsp;Chemistry is at its best</h3>
+                            <p>VK Crop Science mission is to improve Crop Productivity and Public Health.</p>
+                      </div>
+                      <div class="space40"></div>
+                 </div>
+
+                 <div class="col-lg-12">
+                      <div class="about5-boxes" data-aos="fade-left" data-aos-duration="1300">
+                            <h3><img src="https://farmexoagrochemicals.com/assets/img/about-icon-02.png" style="height:24px;">&nbsp;&nbsp;&nbsp;A wide network of business</h3>
+                            <p>It has a wide network of business in India as well as in world market with a phenomenal growth rate year after year.</p>
+                      </div>
+                 </div>
+            </div>
+       </div>
+       <div class="space32"></div>
+          <div class="btn-area1" data-aos="fade-left" data-aos-duration="1400">
+            <a href="about.html" class="header-btn11">More About Us<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--===== ABOUT AREA ENDS =======-->
+<style>
+    .case4-section-area .cs_case_study_thumb {
+  background-image: url(https://farmexoagrochemicals.com/admin/assets/uploads/49288_d6b6c0c531.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.case4-section-area .cs_case_study_thumb.cs_case_study_thumb2 {
+  background-image: url(https://farmexoagrochemicals.com/admin/assets/uploads/98860_6c28ee1272.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.case4-section-area .cs_case_study_thumb.cs_case_study_thumb3 {
+  background-image: url(https://farmexoagrochemicals.com/admin/assets/uploads/13272_194a7ef54c.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.case4-section-area .cs_case_study_thumb.cs_case_study_thumb4 {
+  background-image: url(https://farmexoagrochemicals.com/admin/assets/uploads/14065_bc94c412bc.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+</style>
+<!--===== CASE AREA STARTS =======-->
+<div class="case4-section-area sp1" style="padding: 0px ;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 m-auto">
+                <div class="case4-header heading8 text-center">
+                    <h2 class="text-anime-style-1">Our Core Product Range</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" data-aos="fade-up" data-aos-duration="1200">
+                <div class="cs_case_study_1_list">
+                  <div class="cs_case_study cs_style_1 cs_hover_active active">
+                    <a href="https://farmexoagrochemicals.com/home/products/1" class="cs_case_study_thumb cs_bg_filed" data-src="https://farmexoagrochemicals.com/admin/assets/uploads/49288_d6b6c0c531.png"></a>
+                    <div class="content-area1">
+                      <a href="https://farmexoagrochemicals.com/home/products/1" class="title_font_size">Fungicides</a>
+                    </div>
+                    <div class="content-area">
+                      <img src="https://farmexoagrochemicals.com/assets/img/icons/case-icon1.svg" alt="">
+                      <div class="space16"></div>
+                      <a href="https://farmexoagrochemicals.com/home/products/1" class="title_font_size">Fungicides </a>
+                      <p class="title_font_size2" style="color:white;">Our broad-spectrum fungicides provide comprehensive protection against diseases like powdery mildew and rust, ensuring healthy, thriving plants.</p>
+                    </div>
+                  </div>
+                  <div class="cs_case_study cs_style_1 cs_hover_active">
+                    <a href="https://farmexoagrochemicals.com/home/products/2" class="cs_case_study_thumb cs_case_study_thumb2 cs_bg_filed" data-src="https://farmexoagrochemicals.com/admin/assets/uploads/98860_6c28ee1272.jpg"></a>
+                    <div class="content-area1">
+                      <a href="https://farmexoagrochemicals.com/home/products/2" class="title_font_size">Insecticides</a>
+                    </div>
+                    <div class="content-area">
+                      <img src="https://farmexoagrochemicals.com/assets/img/icons/case-icon1.svg" alt="">
+                      <div class="space16"></div>
+                      <a href="https://farmexoagrochemicals.com/home/products/2" class="title_font_size">Insecticides</a>
+                      <p class="title_font_size2" style="color:white;">Protect your crops from destructive pests with our range of high-efficiency insecticides. we offer reliable pest control solutions that work in harmony with nature.</p>
+                    </div>
+                  </div>
+                  <div class="cs_case_study cs_style_1 cs_hover_active">
+                    <a href="https://farmexoagrochemicals.com/home/products/3" class="cs_case_study_thumb cs_case_study_thumb3 cs_bg_filed" data-src="https://farmexoagrochemicals.com/admin/assets/uploads/13272_194a7ef54c.png"></a>
+                    <div class="content-area1">
+                      <a href="https://farmexoagrochemicals.com/home/products/3" class="title_font_size">Herbicides</a>
+                    </div>
+                    <div class="content-area">
+                      <img src="https://farmexoagrochemicals.com/assets/img/icons/case-icon1.svg" alt="">
+                      <div class="space16"></div>
+                      <a href="https://farmexoagrochemicals.com/home/products/3" class="title_font_size">Herbicides</a>
+                      <p class="title_font_size2" style="color:white;">Tackle unwanted weeds without compromising crop health. VK Crop Science’s range of pre- and post-emergence herbicides ensures complete control over even the toughest weed species.</p>
+                    </div>
+                  </div>
+                  <div class="cs_case_study cs_style_1 cs_hover_active">
+                    <a href="https://farmexoagrochemicals.com/home/products/4" class="cs_case_study_thumb cs_case_study_thumb4 cs_bg_filed" data-src="https://farmexoagrochemicals.com/admin/assets/uploads/14065_bc94c412bc.jpg"></a>
+                    <div class="content-area1">
+                      <a href="https://farmexoagrochemicals.com/home/products/4" class="title_font_size">Plant Growth</a>
+                    </div>
+                    <div class="content-area">
+                        <img src="https://farmexoagrochemicals.com/assets/img/icons/case-icon1.svg" alt="">
+                        <div class="space16"></div>
+                      <a href="https://farmexoagrochemicals.com/home/products/4" class="title_font_size">Plant Growth</a>
+                      <p class="title_font_size2" style="color:white;">Growth in plants is typically divided into stages—germination, vegetative growth, and flowering/reproduction. Each stage has different requirements for optimal growth, making it essential to manage environmental factors accordingly.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="space60 d-lg-block d-none"></div>
+                <div class="space34 d-lg-none d-block"></div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!--===== CASE AREA ENDS =======-->
+<div class="works4-section-area sp2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="works4-header heading8">
+                    <h2 class="text-anime-style-1">Transforming Agriculture with Smart Solutions</h2>
+                    <div class="space10 d-lg-block d-none"></div>
+                    <p data-aos="fade-up" data-aos-duration="1000">VK Crop Science is more than just an agrochemical company—it’s your partner in growth. Our innovative approach combines traditional farming expertise with cutting-edge science to bring you smarter, faster, and more efficient solutions. </p>
+                    <div class="space32"></div>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-7">
+                <div class="case-images">
+                    <figure class="image-anime reveal">
+                        <img src="https://farmexoagrochemicals.com/admin/assets/uploads/98649_7d2e064d13.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+            <div class="space50"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="800">
+                <div class="works-author-boxarea">
+                    <div class="icons">
+                        <img src="https://farmexoagrochemicals.com/assets/img/icons/works-icon4.svg" alt="">
+                    </div>
+                    <div class="space24"></div>
+                    <div class="content-area">
+                        <a href="https://farmexoagrochemicals.com/case-single.html">Data-Driven Farming</a>
+                        <p>Our products are developed with the latest in agricultural science, using data to fine-tune performance and deliver results you can count on.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="works-author-boxarea">
+                    <div class="icons">
+                        <img src="https://farmexoagrochemicals.com/assets/img/icons/works-icon5.svg" alt="">
+                    </div>
+                    <div class="space24"></div>
+                    <div class="content-area">
+                        <a href="https://farmexoagrochemicals.com/case-single.html">Performance Focused</a>
+                        <p>Every VK Crop Science product is tested for real-world conditions, ensuring it not only works in the lab but on your fields, where it matters most.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration="1200">
+                <div class="works-author-boxarea">
+                    <div class="icons">
+                        <img src="https://farmexoagrochemicals.com/assets/img/icons/works-icon6.svg" alt="">
+                    </div>
+                    <div class="space24"></div>
+                    <div class="content-area">
+                        <a href="https://farmexoagrochemicals.com/case-single.html">Customer-First Approach</a>
+                        <p>From personalized solutions to on-demand support, we go beyond just selling products—we offer peace of mind.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--===== SLIDER AREA ENDS =======-->
+
+
+
+<!--===== TESTIMONIAL AREA STARTS =======-->
+<!--<div class="testimonial5-section-area sp1" style="background-image: url(https://farmexoagrochemicals.com/assets/img/bg/header-bg5.png); background-size: cover; background-repeat: no-repeat;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 m-auto">
+        <div class="testimonial-header-area text-center heading10">
+          <h5><img src="https://farmexoagrochemicals.com/assets/img/icons/logo-icons5.svg" alt="">Testimonials</h5>
+          <h2 class="text-anime-style-3">Client Success Stories: Hear What Our Clients Have To Say</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-8 m-auto">
+        <div class="testimonial-sliders text-center" data-aos="zoom-out" data-aos-duration="1000">
+          <div class="testimonial-nav ">
+            <div class="single-testimonial-nav">
+              <img src="https://farmexoagrochemicals.com/assets/img/all-images/testimonial-img5.png" alt="">
+            </div>
+            <div class="single-testimonial-nav">
+              <img src="https://farmexoagrochemicals.com/assets/img/all-images/testimonial-img6.png" alt="">
+            </div>
+            <div class="single-testimonial-nav">
+              <img src="https://farmexoagrochemicals.com/assets/img/all-images/testimonial-img7.png" alt="">
+            </div>
+            <div class="single-testimonial-nav">
+              <img src="https://farmexoagrochemicals.com/assets/img/all-images/testimonial-img8.png" alt="">
+            </div>
+            <div class="single-testimonial-nav">
+              <img src="https://farmexoagrochemicals.com/assets/img/all-images/testimonial-img9.png" alt="">
+            </div>
+            <div class="single-testimonial-nav">
+              <img src="https://farmexoagrochemicals.com/assets/img/all-images/testimonial-img5.png" alt="">
+            </div>
+
+          </div>
+
+          <div class="slider-testimonial">
+
+            <div class="single-testimonial">
+              <h5>“Working with SEOC has been a game-changer for our business. Their expertise and dedication have helped us achieve unprecedented growth in our online presence.  I highly recommend to any business looking to boost their online visibility and drive meaningful results."</h5>
+              <div class="author">
+                <a href="https://farmexoagrochemicals.com/team.html">Leslie Alexander</a>
+                <p>CEO, Business Administ</p>
+              </div>
+            </div>
+            <div class="single-testimonial">
+              <h5>“Working with SEOC has been a game-changer for our business. Their expertise and dedication have helped us achieve unprecedented growth in our online presence.  I highly recommend to any business looking to boost their online visibility and drive meaningful results."</h5>
+              <div class="author">
+                <a href="https://farmexoagrochemicals.com/team.html">Leslie Alexander</a>
+                <p>CEO, Business Administ</p>
+              </div>
+            </div>
+            <div class="single-testimonial">
+              <h5>“Working with SEOC has been a game-changer for our business. Their expertise and dedication have helped us achieve unprecedented growth in our online presence.  I highly recommend to any business looking to boost their online visibility and drive meaningful results."</h5>
+              <div class="author">
+                <a href="https://farmexoagrochemicals.com/team.html">Leslie Alexander</a>
+                <p>CEO, Business Administ</p>
+              </div>
+            </div>
+            <div class="single-testimonial">
+              <h5>“Working with SEOC has been a game-changer for our business. Their expertise and dedication have helped us achieve unprecedented growth in our online presence.  I highly recommend to any business looking to boost their online visibility and drive meaningful results."</h5>
+              <div class="author">
+                <a href="https://farmexoagrochemicals.com/team.html">Leslie Alexander</a>
+                <p>CEO, Business Administ</p>
+              </div>
+            </div>
+            <div class="single-testimonial">
+              <h5>“Working with SEOC has been a game-changer for our business. Their expertise and dedication have helped us achieve unprecedented growth in our online presence.  I highly recommend to any business looking to boost their online visibility and drive meaningful results."</h5>
+              <div class="author">
+                <a href="https://farmexoagrochemicals.com/team.html">Leslie Alexander</a>
+                <p>CEO, Business Administ</p>
+              </div>
+            </div>
+            <div class="single-testimonial">
+              <h5>“Working with SEOC has been a game-changer for our business. Their expertise and dedication have helped us achieve unprecedented growth in our online presence.  I highly recommend to any business looking to boost their online visibility and drive meaningful results."</h5>
+              <div class="author">
+                <a href="https://farmexoagrochemicals.com/team.html">Leslie Alexander</a>
+                <p>CEO, Business Administ</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-arrows">
+            <div class="testimonial-prev-arrow">
+              <button><i class="fa-solid fa-angle-left"></i></button>
+            </div>
+            <div class="testimonial-next-arrow">
+              <button><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>-->
+<!--===== TESTIMONIAL AREA ENDS =======-->
+
+<!--===== CONTACT AREA STARTS =======-->
+<!--<div class="contact5-section-area sp1" style="padding-top:0px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 m-auto">
+          <div class="contact-header-area text-center heading10">
+            <h5><img src="https://farmexoagrochemicals.com/assets/img/icons/logo-icons6.svg" alt="">Contact</h5>
+            <h2 class="text-anime-style-3">Contact Our Expert</h2>          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5" data-aos="zoom-in" data-aos-duration="1200">
+          <div class="contact-info-area">
+            <h3>Contact Info</h3>
+            <p>We're here to help! If you have any questions or would like to discuss how our services can benefit your business,</p>
+            <div class="space32"></div>
+            <div class="contact-auhtor-box">
+              <div class="icons">
+                <img src="https://farmexoagrochemicals.com/assets/img/icons/location2.svg" alt="">
+              </div>
+              <div class="content">
+                <h4>Our Location</h4>
+                <a href="">Sr. No. 890/P2, Plot No-2/3, At. Ardoi, Kotda Sangani - 360030.</a>
+              </div>
+            </div>
+            <div class="space40"></div>
+            <div class="contact-auhtor-box">
+              <div class="icons">
+                <img src="https://farmexoagrochemicals.com/assets/img/icons/phone2.svg" alt="">
+              </div>
+              <div class="content">
+                <h4>Phone Number</h4>
+                <a href="">(+91) - 96019 18001/02</a>
+              </div>
+            </div>
+            <div class="space40"></div>
+            <div class="contact-auhtor-box">
+              <div class="icons">
+                <img src="https://farmexoagrochemicals.com/assets/img/icons/email2.svg" alt="">
+              </div>
+              <div class="content">
+                <h4>Email Address</h4>
+                <a href="mailto:info@farmexoagrochemcials.com">info@farmexoagrochemcials.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7" data-aos="zoom-in" data-aos-duration="1200">
+          <div class="contact-boxarea">
+             <h3>Get In Touch</h3>
+             <p>We're here to help! If you have any questions or would like to discuss <br class="d-lg-block d-none"> how our SEO and digital marketing services can benefit your business,</p>
+             <form action="" method="POST">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="input-area">
+                    <input type="text" placeholder="First Name" required>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="input-area">
+                    <input type="text" placeholder="Last Name" required>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="input-area">
+                    <input type="email" placeholder="Email Address" required>
+                  </div>
+                </div>
+  
+                <div class="col-lg-6">
+                  <div class="input-area">
+                    <input type="number" placeholder="Phone Number" required>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="input-area">
+                    <textarea placeholder="Your Message" required></textarea>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="input-area">
+                    <button class="header-btn11">Get Started Now <span><i class="fa-solid fa-arrow-right"></i></span></button>
+                  </div>
+                </div>
+               </div>
+             </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <!--===== CONTACT AREA ENDS =======-->
+
+
+<!--===== FOOTER AREA STARTS =======-->
+<div class="footer9-section-area" style="padding-top:80px;background-color:#d7d8d9">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-logo-area">
+            <img src="images/logo/VKCROP.png" alt="" style="max-height:60px; width:auto;">
+            <p>VK Crop Science is a global leader in the development, manufacturing, and distribution of high-quality agrochemicals.</p>
+            <ul>
+              <li><a href="https://www.facebook.com/profile.php?id=61558309316331" target="_blank"><img src="assets/icons/facebook5.svg" alt=""></a></li>
+              <li><a href="https://www.instagram.com/farmexoagrochemicals/" target="_blank"><img src="assets/icons/instagram5.png" alt=""></a></li>
+              <li><a href="https://www.linkedin.com/feed/" target="_blank"><img src="assets/icons/linkedin5.svg" alt=""></a></li>
+              <li><a href="https://farmexoagrochemicals.com/#"><img src="assets/icons/youtube1.svg" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-logo-area1">
+            <h3>About Link</h3>
+            <ul>
+              <li><a href="https://farmexoagrochemicals.com/">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="https://farmexoagrochemicals.com/home/category">Category</a></li>
+            <li><a href="https://farmexoagrochemicals.com/home/gallery">Gallery & Videos</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-logo-area2">
+            <h3>Get in touch</h3>
+            <ul>
+              <li><a href=""><img src="https://farmexoagrochemicals.com/assets/img/icons/email.svg" alt=""><span><span class="__cf_email__" data-cfemail="d0b9beb6bf90b6b1a2bdb5a8bfb1b7a2bfb3b8b5bdb3b9b1bca3feb3bfbd">[email&#160;protected]</span></span></a></li>
+              <li><a href="https://maps.app.goo.gl/ihsya7asJrHeuVNu8"><img src="https://farmexoagrochemicals.com/assets/img/icons/location.svg" alt=""><span>Juna deroi road, Gadhka, Rajkot, Gujarat 360020</span></a></li>
+              <li><a href=""><img src="https://farmexoagrochemicals.com/assets/img/icons/phone.svg" alt=""><span>(+91) - 96019 18001/02</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="space40 d-lg-none d-block"></div>
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-lg-12">
+          <div class="copyright-area">
+            <div class="pera">
+              <p>ⓒCopyright 2024 VK Crop Science . All rights reserved</p>
+            </div>
+            <ul>
+              <li><a href="https://farmexoagrochemicals.com/#">Terms & Conditions</a></li>
+              <li><a href="https://farmexoagrochemicals.com/#" class="m-0"> Privacy Policy </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--===== FOOTER AREA ENDS =======-->
+
+
+<!--===== JS SCRIPT LINK =======-->
+<script src="assets/js/jquery-3-6-0.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/fontawesome.js"></script>
+<script src="assets/js/aos.js"></script>
+<script src="assets/js/counter.js"></script>
+<script src="assets/js/sidebar.js"></script>
+<script src="assets/js/slick-slider.js"></script>
+<script src="assets/js/magnific-popup.js"></script>
+<script src="assets/js/mobilemenu.js"></script>
+<script src="assets/js/owlcarousel.min.js"></script>
+<script src="assets/js/nice-select.js"></script>
+<script src="assets/js/gsap.min.js"></script>
+<script src="assets/js/ScrollTrigger.min.js"></script>
+<script src="assets/js/Splitetext.js"></script>
+<script src="assets/js/gsap-animation.js"></script>
+<script src="assets/js/waypoints.js"></script>
+<script src="assets/js/circle-progress.js"></script>
+<script src="assets/js/main.js"></script>
+<div id="footer-placeholder"></div>
+<script>
+  fetch('loader.html')
+    .then(res => res.text())
+    .then(data => document.getElementById('loader-placeholder').innerHTML = data);
+  fetch('whatsapp.html')
+    .then(res => res.text())
+    .then(data => document.getElementById('whatsapp-placeholder').innerHTML = data);
+  fetch('header.html')
+    .then(res => res.text())
+    .then(data => document.getElementById('header-placeholder').innerHTML = data);
+  fetch('footer.html')
+    .then(res => res.text())
+    .then(data => document.getElementById('footer-placeholder').innerHTML = data);
+</script>
+<script>
+  fetch('loader.html')
+    .then(res => res.text())
+    .then(data => document.getElementById('loader-placeholder').innerHTML = data);
+</script>
+</body>
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpsh-oh'},{'server':'p3plzcpnl508214'},{'dcenter':'p3'},{'cp_id':'9830216'},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script></html>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".owl-carousel").owlCarousel({
+        items: 1,                  // Number of items to display at a time
+        loop: true,                // Enable loop
+        autoplay: true,            // Enable autoplay
+        autoplayTimeout: 5000,     // Time between slides
+        nav: true,                 // Show next/prev buttons
+        dots: true,                // Show dots for navigation
+        animateOut: 'fadeOut',     // Animation effect for slide out
+        animateIn: 'fadeIn',       // Animation effect for slide in
+    });
+});
+</script>
+<style type="text/css">
+.owl-prev {
+    position: absolute;
+    z-index: 999999999 !important;
+    top: 40%;
+    left: 10px; /* Adjust left position */
+    transform: translateY(-50%); /* Center vertically */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #fff !important; /* White arrow */
+    border-radius: 50%; /* Round button */
+    padding: 10px; /* Adjust button size */
+    font-size: 50px !important; /* Adjust arrow size */
+}
+
+/* Style for the Right (Next) Button */
+.owl-next {
+    position: absolute;
+    z-index: 999999999 !important;
+    top: 40%;
+    right: 10px; /* Adjust right position */
+    transform: translateY(-50%); /* Center vertically */
+    background-color: rgba(0, 0, 0, 0.5) ; /* Semi-transparent background */
+    color: #fff !important; /* White arrow */
+    border-radius: 50%; /* Round button */
+    padding: 10px; /* Adjust button size */
+    font-size: 50px !important; /* Adjust arrow size */
+}
+
+/* Hover Effect for the Buttons */
+.owl-prev:hover, .owl-next:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+    color: #fff; /* Keep the arrow color white */
+}
+</style>

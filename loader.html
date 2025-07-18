@@ -1,0 +1,89 @@
+<style type="text/css">
+  .preloader4 {
+    background: white !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .preloader4 .loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+  }
+  #loading-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: static;
+    width: auto;
+    height: auto;
+    z-index: 2;
+    margin-bottom: 24px;
+  }
+  #loading-icon img {
+    animation: logo-blink 1.2s infinite alternate;
+    max-height: 50px;
+    width: auto;
+  }
+  @keyframes logo-blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.4; }
+    100% { opacity: 1; }
+  }
+  .modern-bounce-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+    z-index: 1;
+  }
+  .modern-bounce-loader span {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    animation: bounce 0.6s infinite alternate;
+  }
+  .modern-bounce-loader span:nth-child(1) {
+    background: #B6D43A;
+  }
+  .modern-bounce-loader span:nth-child(2) {
+    background: #21A038;
+    animation-delay: 0.2s;
+  }
+  .modern-bounce-loader span:nth-child(3) {
+    background: #137A1F;
+    animation-delay: 0.4s;
+  }
+  @keyframes bounce {
+    to {
+      opacity: 0.3;
+      transform: translateY(-18px);
+    }
+  }
+</style>
+<div class="preloader preloader4" id="global-preloader">
+  <div class="loading-container">
+    <div id="loading-icon"><img src="images/logo/VKCROP.png" alt="Loading"></div>
+    <div class="modern-bounce-loader">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</div>
+<script>
+  // Hide loader after page load
+  window.addEventListener('load', function() {
+    var loader = document.getElementById('global-preloader');
+    if(loader) loader.style.display = 'none';
+  });
+</script> 
